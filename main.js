@@ -1,4 +1,4 @@
-function getJson() {
+function fillPersonalData() {
    fetch('personal-data.json')
    .then(function(res){
       return res.json();
@@ -11,4 +11,4 @@ function getJson() {
    })
 }
 
-getJson();
+fillPersonalData();
