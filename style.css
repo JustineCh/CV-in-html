@@ -268,7 +268,7 @@ ul {
    content: '';
    position: absolute;
    right: -5px;
-   bottom: 62px;
+   bottom: 58px;
    width: 10px;
    height: 10px;
    background: #629bb8;
@@ -276,7 +276,7 @@ ul {
 }
 
 #education-timeline ul li::after {
-   bottom: 52px;
+   bottom: 48px;
 }
 
 #experience-timeline ul li div,
