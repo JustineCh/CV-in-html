@@ -210,13 +210,13 @@ body {
   font-size: 14px;
   margin-left: 20px;
   margin-right: 20px;
-  margin-bottom: 14px;
+  margin-bottom: 10px;
 }
 
 #name-and-title {
   height: 140px;
   width: 450px;
-  margin-bottom: 48px;
+  margin-bottom: 40px;
   margin-top: 10px;
   display: flex;
   justify-content: center;
@@ -238,7 +238,7 @@ body {
 
 .main-item .section-title {
   margin-left: 31px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 #experience-timeline .section-title .line-break,
@@ -259,7 +259,7 @@ ul {
   position: relative;
   width: 1px;
   margin: 0 134px;
-  padding-top: 10px;
+  padding-top: 8px;
   background: #272726;
 }
 
@@ -268,15 +268,19 @@ ul {
   content: "";
   position: absolute;
   right: -5px;
-  bottom: 51px;
+  bottom: 49px;
   width: 10px;
   height: 10px;
   background: #629bb8;
   border-radius: 50%;
 }
 
+#experience-timeline ul li:first-child::after {
+  bottom: 119px;
+}
+
 #education-timeline ul li::after {
-  bottom: 41px;
+  bottom: 39px;
 }
 
 #experience-timeline ul li div,
@@ -292,7 +296,7 @@ ul {
   height: 55px;
   display: flex;
   right: 136px;
-  padding-bottom: 10px;
+  padding-bottom: 8px;
 }
 
 #education-timeline .edu-box {
@@ -316,13 +320,27 @@ ul {
   margin-left: 15px;
 }
 
+#experience-timeline ul li:last-child {
+  padding-top: 0px;
+  padding-bottom: 0;
+}
+
+#experience-timeline ul li:first-child {
+  padding-bottom: 70px;
+}
+
+.job-description {
+  font-size: 12px;
+  padding-top: 5px;
+}
+
 .icons-box {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin-bottom: 14px;
+  margin-top: 10px;
 }
 
 .icon {
